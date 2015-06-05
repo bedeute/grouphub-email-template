@@ -1,0 +1,23 @@
+{
+  "name": "grouphub-email-template",
+  "version": "0.0.1",
+  "authors": [
+    "bedeute <bedeute@gmail.com>"
+  ],
+  "description": "grouphub email template",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ],
+  "dependencies": {
+    
+    
+    
+  },
+  "overrides": {
+  }
+}
