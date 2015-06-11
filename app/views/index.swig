@@ -41,7 +41,7 @@
     </tr>
     <tr>
       <td>
-        <a href="#" style="background: url(images/akibanation-cover.jpg) center; display: inline-block; width: 420px; height: 200px; overflow: hidden;">
+        <a href="#" style="background: url(images/akibanation-cover.jpg) center; display: block; max-width: 420px; height: 200px; overflow: hidden; margin: 8px auto; background-size: cover;">
         </a>
       </td>
     </tr>
@@ -85,7 +85,7 @@
     </tr>
   </tbody>
 </table>
-<table cellpadding="0" cellspacing="6" border="0" width="100%" bgcolor="#3e4148" style="">
+<table cellpadding="0" cellspacing="6" border="0" width="100%" bgcolor="#3e4148" style="padding-bottom: 14px;">
   <tbody align="center">
     <tr>
       <td>
@@ -94,10 +94,37 @@
     </tr>
     <tr>
       <td style="line-height: 2.8;">
-        <a href="#" style="background: #f06b32; color: white; padding: 8px 14px; text-decoration: none; ">Yes, of course</a>
-        <a href="#" style="background: #999999; color: white; padding: 8px 14px; text-decoration: none; ">Unfortunately, no</a>
+        <a href="#" style="background: #f06b32; color: white; padding: 8px 14px; text-decoration: none; margin: 0 4px; ">Yes, of course</a>
+        <a href="#" style="background: #999999; color: white; padding: 8px 14px; text-decoration: none; margin: 0 4px; ">Unfortunately, no</a>
       </td>
     </tr>
   </tbody>
 </table>
+<table cellpadding="0" cellspacing="6" border="0" width="100%" style="max-width: 620px; background: #f9f9f9 url(images/envelope-pattern.png) top repeat-x; margin: 30px auto; padding: 12px 20px;">
+  <tbody style="color:#555; line-height: 1.4em;" align="center">
+    <tr>
+      <td align="left">
+        <p>
+          <strong>Hello frans,</strong><br>
+          Selamat siang semuanya, dengan ini saya kirimkan newsletter dari GroupHub. salam dan sukses selalu frans
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table cellpadding="0" cellspacing="6" border="0" width="100%" style="max-width: 620px;">
+  <tbody align="center">
+    <tr>
+      <td style="color: #929bb2; font-size: 18px;">
+        Supported by:
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <hr style="border: 1px solid transparent; border-color: #393c46 transparent transparent; margin: 10px 0;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 {% endblock %}

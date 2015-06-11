@@ -46,11 +46,35 @@
                 {% block main %}{% endblock %}
 
                 <!-- footer -->
-                <table cellpadding="0" cellspacing="10" border="0" width="100%">
+                <table cellpadding="0" cellspacing="10" border="0" width="100%" style="max-width: 620px; margin-bottom: 6px;">
                   <tbody align="center">
                     <tr>
                       <td>
                         you are receiving this email because you subscribed in at list name for newsletter.<br><a href="#" style="color: #f06b32; text-decoration: none;">Click here</a> for Unsubscribe
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="margin-top: 10px;">
+                        <a href="#" style="display: inline-block; margin: 2px 4px;"><img src="/images/fb-button.jpg"></a>
+                        <a href="#" style="display: inline-block; margin: 2px 4px;"><img src="/images/rss-button.jpg"></a>
+                        <a href="#" style="display: inline-block; margin: 2px 4px;"><img src="/images/twitter-button.jpg"></a>
+                        <a href="#" style="display: inline-block; margin: 2px 4px;"><img src="/images/ig-button.jpg"></a>
+                        <a href="#" style="display: inline-block; margin: 2px 4px;"><img src="/images/linkedin-button.jpg"></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <hr style="border: 1px solid transparent; border-color: #393c46 transparent transparent; margin: 10px 0;">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="color: #929bb2; font-size: 18px;">
+                        Powered by:
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="#" style="display: inline-block;"><img src="/images/grouphub-logo-white.png"></a>
                       </td>
                     </tr>
                   </tbody>
